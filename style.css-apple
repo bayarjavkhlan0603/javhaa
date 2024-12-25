@@ -1,0 +1,5 @@
+.LIST {
+  background-color: white;
+  width: 1920px;
+  height: 44px;
+}

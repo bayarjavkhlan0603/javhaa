@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .BACKGROUND {
+        height: 70vh;
+        width: 100vw;
+        background-size: cover;
+        background-image: url(./HeroImage.png);
+      }
+      .logo {
+        width: 101px;
+        height: 35px;
+      }
+      .TOUR {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+        flex-shrink: 0;
+      }
+      .MENUS {
+        display: flex;
+        gap: 72px;
+        align-items: center;
+        font-size: 18px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      .LANGUAGE {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 13px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 20px;
+      }
+      .numbertwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60%;
+      }
+      .pure {
+        font-size: 80px;
+        color: #e8edf2b8;
+        margin: 0;
+      }
+      .awaits {
+        font-size: 250px;
+        margin: 0;
+        color: white;
+      }
+      .year {
+        font-size: 64px;
+        margin-top: 0px;
+        color: #ffffffcc;
+      }
+      .cards {
+        background-color: #d8e4e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 70px;
+        position: relative;
+      }
+      .ttslake {
+        width: 275.49px;
+        height: 370px;
+        border-radius: 40px;
+        background-image: url(./image4.png);
+        background-size: cover;
+        color: white;
+        text-shadow: 0px 4px 4.9px rgba(0, 0, 0, 0.65);
+        font-style: normal;
+        font-size: 37px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 370px;
+        padding: 10px;
+        gap: 10px;
+        box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
+          8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+      }
+      .ttslake:hover {
+        width: 300px;
+        height: 400px;
+        font-size: 40px;
+      }
+      .monastery {
+        width: 275.49px;
+        height: 370px;
+        border-radius: 40px;
+        background-image: url(./image6.png);
+        background-size: cover;
+        color: white;
+        text-shadow: 0px 4px 4.9px rgba(0, 0, 0, 0.65);
+        font-size: 37px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 370px;
+        padding: 10px;
+        gap: 10px;
+        box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
+          8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+      }
+      .monastery:hover {
+        width: 300px;
+        height: 400px;
+        font-size: 40px;
+      }
+      .khlake {
+        width: 275.49px;
+        height: 370px;
+        border-radius: 40px;
+        background-image: url(./image7.png);
+        background-size: cover;
+        color: white;
+        text-shadow: 0px 4px 4.9px rgba(0, 0, 0, 0.65);
+        font-size: 37px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 370px;
+        padding: 10px;
+        gap: 10px;
+        box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
+          8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+      }
+      .khlake:hover {
+        width: 300px;
+        height: 400px;
+        font-size: 40px;
+      }
+      .togoo {
+        width: 275.49px;
+        height: 370px;
+        border-radius: 40px;
+        background-image: url(./image8.png);
+        background-size: cover;
+        color: white;
+        text-shadow: 0px 4px 4.9px rgba(0, 0, 0, 0.65);
+        font-size: 37px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 370px;
+        padding: 10px;
+        gap: 10px;
+        box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
+          8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+      }
+      .togoo:hover {
+        width: 300px;
+        height: 400px;
+        font-size: 40px;
+      }
+      .map {
+        width: 100vw;
+        height: 902px;
+        background-image: url(./Map\ Image11.png);
+      }
+      .ner {
+        color: #000;
+
+        text-align: center;
+        font-family: GIP;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .nertwo {
+        color: rgba(24, 24, 27, 0.7);
+
+        text-align: center;
+        font-family: GIP;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="BACKGROUND">
+      <div class="TOUR">
+        <img class="1logo" src="./logo 1 (3).png" alt="logo" />
+        <div class="MENUS">
+          <a class="nav" href=" //www.fairway.com/" target=" _blank">home</a>
+          <a class="nav" href=" //www.fairway.com/" target=" _blank">about</a>
+          <a class="nav" href=" //www.instagram.com/" target=" _blank"
+            >contact</a
+          >
+
+          <a class="nav" href="//www.google.com" target="_blank"
+            ><img src="./user.png" alt="logo"
+          /></a>
+        </div>
+        <div class="LANGUAGE">EN</div>
+      </div>
+      <div class="numbertwo">
+        <h1 class="pure">PURE MAGIC</h1>
+        <h2 class="awaits">AWAITS!</h2>
+        <h3 class="year">2024</h3>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="ttslake">TERKHIIN TSAGAAN NUUR</div>
+      <div class="monastery">AMARBAYSGALAN MONASTERY</div>
+      <div class="khlake">KHUWSGUL LAKE</div>
+      <div class="togoo">KHORGIIN TOGOO</div>
+    </section>
+    <section class="map">
+      <div class="ner">Destination of Our Agency</div>
+      <div class="nertwo">pack your bags and get ready</div>
+      <div>
+        <div><p>sukhbaatar square</p></div>
+      </div>
+    </section>
+  </body>
+</html>
